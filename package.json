@@ -1,0 +1,36 @@
+{
+  "name": "create-next-flask",
+  "version": "1.0.0",
+  "description": "Create a Next + Flask app",
+  "author": "Hassan Chowdhry hassanchowdhry0@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/HassanChowdhry/next_flask_template#readme",
+  "scripts": {
+    "dev": "ncc build ./index.ts -w -o dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanChowdhry/next_flask_template.git"
+  },
+  "keywords": [
+    "Next",
+    "Flask"
+  ],
+  "bugs": {
+    "url": "https://github.com/HassanChowdhry/next_flask_template/issues"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "bin": {
+    "create-next-flask": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@vercel/ncc": "0.38.1",
+    "typescript": "^5.5.4"
+  }
+}

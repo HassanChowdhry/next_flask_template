@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Hassan Chowdhry <94680098+HassanChowdhry@users.noreply.github.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flask-cors = "^5.0.0"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+flask-pymongo = "^2.3.0"
+bcrypt = "^4.2.0"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.1"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
