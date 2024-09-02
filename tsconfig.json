@@ -9,5 +9,5 @@
     "outDir": "./dist",
     "rootDir": "./"
   },
-  "exclude": ["template", "dist"]
+  "exclude": ["templates", "dist"]
 }
